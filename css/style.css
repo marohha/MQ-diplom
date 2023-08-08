@@ -995,19 +995,26 @@ body {
     .menu-burger {
         display: flex;
     }
-    
-    .menu-burger-img {
+
+    .menu-burger {
         width: 30px;
+        height: 30px;
         position: absolute;
         right: 40px;
         top: 35px;
         z-index: 2;
-        display: flex;
-        
        }
 
-    .svg-menu {
-        fill: #fff;
+    .humburger {
+        display: block;
+    }
+
+    .humburger-line {
+        width: 30px;
+        height: 4px;
+        margin-top: 5px;
+        background-color: #fff;
+        list-style-type: none;
     }
 
     .title {
@@ -1041,16 +1048,27 @@ body {
     .menu-burger {
         display: flex;
     }
-    
-    .menu-burger-img {
+
+    .menu-burger {
         width: 30px;
+        height: 30px;
         position: absolute;
         right: 40px;
         top: 35px;
         z-index: 2;
-        display: flex;
-        
        }
+
+    .humburger {
+        display: block;
+    }
+
+    .humburger-line {
+        width: 30px;
+        height: 4px;
+        margin-top: 5px;
+        background-color: #fff;
+        list-style-type: none;
+    }
 
     .title {
         width: 100%;
